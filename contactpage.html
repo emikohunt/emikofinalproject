@@ -28,14 +28,15 @@
 			<p>EMIKO HUNT</p>
 		</upperlogo>
 
-		<div class="topNav">
+		<nav>
+			<div class="menu">MENU</div>
 			<ul>
 				<li>home</li>
-				<li>about me</li>
+				<li>about</li>
 				<li>services</li>
 				<li>contact</li>
 			</ul>
-		</div>
+		</nav>
 	</header>
 
 	<main>
@@ -47,98 +48,88 @@
 			<h2>Let's talk about your project</h2>
 		</section>
 
-		<section class="contactform">
-			<!--insert a form with name, email, phone, text box - tell me about your project, then a send button -->
-		</section>
-
 		<section class="contactcopy">
-			<p>If you'd like to get in touch about your business, complete the form and I will get back to you within 24 hours. Please make sure to add a bit about your business and the services you are seeking. Or, feel free to contact me on the below details.</p>
-			<div class="contact-box">
+			<p>Get in contact to discuss your business needs. Make sure to add a bit about your business (website links are always helpful) and the services you are considering. I offer a free initial phone consultation to see how we can work together.</p>
+			</section>
+			
+		<div class="contactsection">
+		
+
+		<div class="contactformstyle">
+			
+		<form action="" method="get" enctype="multipart/form-data">
+			
+			<div class="questionfield">
+			<label for="Name">Name</label>
+			<input class="box" type="text" name="First Name" id="First Name">
+			</div>
+			
+			<div class="questionfield">
+			<label for="Email">Email</label>
+			<input type="email" name="email" id="email">
+			</div>
+			
+			<div class="questionfield">
+			<label for="Phone">Phone</label>
+			<input type="phone" name="phone" id="phone">
+			</div>
+			
+			<div class="questionfield">
+			<label for="Tell Me About Your Job">What Can I Assist You With?</label>
+			<br>
+			<textarea row="1" cols="1"></textarea>
+			</div>
+			
+			<div class="questionfield">
+			<input type="submit" value="Receive an email response">
+			</div>
+			
+		</form>
+		
+		</div>
+		
+		<div class="contact-box">
+				<h3>Get in Touch</h3>
+				<p>Complete the form and I'll get back to you shortly. Or feel free to contact me directly via email or phone.</p>
+				<br>
 				<h4>Email:</h4>
 				<p>hello@emikohunt.com</p>
 				<h4>Phone:</h4>
-				<p>0400000000</p>
-			</div>
-		</section>
-
-		<form action="" method="get" enctype="multipart/form-data">
-			<label for="First Name">First Name</label>
-			<input type="text" name="First Name" id="First Name" placeholder="First Name">
-			<label for="Last Name">Last Name</label>
-			<input type="text" name="Last Name" id="Last Name" placeholder="Last Name">
-			<label for="Email">Email</label>
-			<input type="Email" name="Email" id="Email" placeholder="Email Address">
-			<label for="Phone Number">Phone Number</label>
-			<input type="Phone Number" name="Phone Number" id="Phone Number" placeholder="Email Address">
-			<input type="submit" value="Get Reply">
-		</form>
-
-		<section class="imagecircles">
-
-			<div class="imagecirclebox">
-				<a href="">
-					<img src="" alt="image">
-				</a>
-			</div>
-			<div class="imagecirclebox">
-				<a href="">
-					<img src="" alt="image">
-				</a>
-			</div>
-			<div class="imagecirclebox">
-				<a href="">
-					<img src="" alt="image">
-				</a>
-			</div>
-			<div class="imagecirclebox">
-				<a href="">
-					<img src="" alt="image">
-				</a>
-			</div>
-
-		</section>
-
-	</main>
-
-	<div class="contact-section">
-
-		<div class="contact-paragraph">
-			<div class="cp">
-				<p>Follow me on social media
-					<p>
-
-			</div>
-			<div class="socialicon">
-				<a href="https://www.instagram.com/emikogram/">
-					<img src="img/instagrampink.png" alt="Instagram Icon">
-				</a>
-
-				<a href="https://www.linkedin.com/in/emiko-hunt-4723863a">
-					<img src="img/linkedin.png" alt="LinkedIn Icon">
-				</a>
-			</div>
-
+				<p>0478 650 603</p>
+		</div>
+		
 		</div>
 
-	</div>
 
 	</main>
 
-	<footer>
-
-		<p>© 2016 Emiko Hunt : Digital Marketing Specialist, Melbourne</p>
-
+<footer>
+	 
+	 <ul class="socialicons">
+	 <li class="instagramicon">
+	 <a href="https://www.instagram.com/emikogram/" target="_blank">
+			<img src="img/instagram-custom.png" alt="Instagram Icon">
+		</a>
+		</li>
+		<li class="linkedinicon">
+		<a href="https://www.linkedin.com/in/emiko-hunt-4723863a" target="_blank">
+			<img src="img/linkedin-custom.png" alt="LinkedIn Icon">
+		</a>
+		</li>
+		</ul>
+		<div class="copyrightsection">
+		<p>© 2016 Emiko Hunt | Digital Marketing Specialist, Melbourne</p>
+		<p>emikohunt@gmail.com | 0478 650 603</p>
+		</div>
+		
 	</footer>
 
-
+</body>
 
 	<!--Below is jquery link and code-->
 	<script src="https://code.jquery.com/jquery-1.12.0.min.js"></script>
-	<script>
-		window.jQuery || document.write('<script src="js/vendor/jquery-1.12.0.min.js"><\/script>')
-	</script>
-	<script src="emikohuntplugins.js"></script>
-	<script src="emikohuntmain.js"></script>
+	<script type="text/javascript" src="main.js"></script>
+	<script src="plugins.js"></script>
 
 	<!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
 	<script>
@@ -157,7 +148,5 @@
 		ga('create', 'UA-XXXXX-X', 'auto');
 		ga('send', 'pageview');
 	</script>
-
-</body>
 
 </html>
