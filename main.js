@@ -27,6 +27,19 @@ $(document).ready(function(){
 		
 	});
 	
+	/* On HOMEPAGE When .servicebox (that turns green) is clicked, turn background to a stronger green and have the ".servicebox-hidden-text p" display over the top.*/
+		
+//	$('.find-out-more-button').click(function(){
+//		$(this).parent().closest(".service-item-block").find('.overlayText').fadeIn();
+//	});
+	$('.servicebox').click(function(){
+		$(this).css("background-color","#d3d8db");
+	});
+	//$('.servicebox').click(function(){
+	//	$(this).toggle();
+		
+//	});
+	
 	
 		
 });

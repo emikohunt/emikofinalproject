@@ -156,8 +156,13 @@ textarea {
 
 /* LINKS */
 
-a:link, a:visited {
-    text-decoration: none;
+a:link {
+    color: inherit;
+		text-decoration: none;
+}
+
+a:visited {
+    color: inherit;
 }
 
 /* CSS for text styles */
@@ -198,6 +203,7 @@ h3 {
 .SEO-copy h3 {
 	margin-left: 3%;
 	margin-right: 3%;
+	text-align: center;
 }
 
 h4 {
@@ -222,6 +228,11 @@ p {
 	color: #4e5564;
 	text-align: justify;
 	margin-top: 10px; 
+}
+
+.text-overlay p {
+	text-align: center;
+	color: white;
 }
 
 header p{
@@ -260,14 +271,6 @@ li:hover {
 	color: #efcfeb;
 }
 
-.text-overlay p {
-	text-align: center;
-	color: white;
-}
-
-.SEO-copy h3 {
-	text-align: center;
-}
 
 /*HOMEPAGE Services Section*/
 
@@ -299,6 +302,7 @@ li:hover {
 	padding: 30% 25%;
 	font-family: "muli";
 }
+
 
 /* Homepage CSS */
 
@@ -341,10 +345,15 @@ li:hover {
 	margin-left: 5%;
 }
 
+.servicewrap {
+	position: relative;
+}
+
 /* service boxes to change colour on hover */
 .servicebox:hover {
 	background-color: rgba(175, 191, 91, 0.9);
 	border: none;
+	transition: 1s;
 }
 
 /* BUTTON CSS*/
@@ -392,6 +401,18 @@ li:hover {
 	text-align: center;
 }
 
+.more-service-info-button {
+	color: #4e5564;
+	background-color: rgba(211, 216, 219, 0.9);
+	padding: 25px 0;
+	margin-top: 20px;
+	font-size: 1.2em;
+	border: none;
+	width: 100%;
+	font-family: "muli" sans-serif;
+}
+
+
 /*style buttons for hover*/
 
 .contact-button-white:hover {
@@ -408,6 +429,14 @@ li:hover {
 	background-color: #4e5564;
 	color: #e7ebed;
 	border: 1px solid #4e5564;
+}
+
+.emailhover:hover {
+	color: #efcfeb;
+}
+
+.more-service-info-button:hover {
+	background-color: whitesmoke;
 }
 
 /* Contact section for all pages*/
@@ -470,7 +499,7 @@ footer {
 
 .profile-image {
 	margin: 20px 5% 60px 5%;
-	background-image: url(img/long%20landscape%20image.jpg);
+	background-image: url(img/emiko-gi.jpg);
 	height: 400px;
 	background-position: center;
 	background-repeat: no-repeat;
@@ -581,7 +610,6 @@ input[type=text] {
 	margin-top: 10px;
 	width: 220px;
 	height: 25px;
-	
 }
 
 input[type=email] {
@@ -675,6 +703,11 @@ textarea {
 	left: 0;
 }
 
+.homeOverlayText {
+	display: none;
+	color: white;
+}
+
 
 /*END OF Desktop CSS */
 
@@ -716,6 +749,7 @@ header nav ul li {
 header nav ul li:hover {
 	background-color: rgba(239, 207, 235, 0.9);
 	color: white;
+	transition: 0.5s;
 }
 	
 	/* font size changes*/
@@ -766,20 +800,28 @@ header nav ul li:hover {
 	font-size: 1em;
 }
 	
+	.servicewrap {
+	position: relative;
+}
+	
+	.serviceboxes {
+		margin: 0 0;
+		border: none;
+	}
+	
 	.servicebox {
 	width: 100%;
 	height: 100px;
 	background-color: white;
-	border: 1px white solid;
-	margin: 5px 0;
+	margin: 5px 0 5px 0;
+	border: none;
 	}
-	
+
 	.servicebox p {
-	color: #4e5564;
-	font-weight: 600;
-	font-size: 1.5em;
-	text-align: center;
+	padding: 25px 0;
+	margin: 0;
 }
+
 	
 	
 	/* contact page changes*/
@@ -835,6 +877,17 @@ header nav ul li:hover {
 
 .service-item-text {
 	padding: 10px 10px;
+}
+	
+	/* About Me page changes */
+	
+	.profile-image {
+	margin: 20px 5% 60px 5%;
+	background-image: url(img/emiko-gi-mobile-size.jpg);
+	height: 400px;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
 }
 	
 }
