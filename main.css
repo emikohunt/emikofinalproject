@@ -182,7 +182,7 @@ h2 {
 	color: #889daa;
 	font-weight: 400;
 	text-align: left;
-	margin: 0 0; 
+	margin: 0 3%; 
 	padding-bottom: 30px;
 }
 
@@ -227,8 +227,14 @@ p {
 	font-size: 1em;
 	color: #4e5564;
 	text-align: justify;
-	margin-top: 10px; 
+	margin: 10px 3% 5px 3%; 
 }
+
+.services p {
+	margin-bottom: 40px;
+	text-align: center;
+}
+
 
 .text-overlay p {
 	text-align: center;
@@ -270,6 +276,11 @@ li {
 li:hover {
 	color: #efcfeb;
 }
+
+.navbold {
+	font-weight: 800;
+}
+
 
 
 /*HOMEPAGE Services Section*/
@@ -337,7 +348,7 @@ li:hover {
 	float: left;
 	background-color: white;
 	opacity: 0.8;
-	border: 1px white solid;
+	border: none;
 	margin: 20px 1%;
 }
 
@@ -565,7 +576,7 @@ footer {
 		border-radius: 5px;
     background-color: #f2f2f2;
     padding: 40px;
-		width: 400px;
+		width: 700px;
 		height: auto;
 		margin-left: 10%;
 		float: left;
@@ -634,7 +645,7 @@ label {
 }
 
 textarea {
-	width: 300px;
+	width: 550px;
 }
 
 /* "Services" Page CSS*/
@@ -673,6 +684,7 @@ textarea {
 	height: 300px;
 	float: left;	
 	position: relative;
+	border: 0.5px white solid;
 }
 
 .serviceblock2 {
@@ -681,6 +693,7 @@ textarea {
 	height: 300px;
 	float: left;
 	position: relative;
+	border: 0.5px white solid;
 }
 
 .overlayText {
@@ -701,6 +714,7 @@ textarea {
 	margin: 0;
 	padding: 0 20px;
 	left: 0;
+
 }
 
 .homeOverlayText {
@@ -847,6 +861,10 @@ header nav ul li:hover {
 		margin: 5px 20px 20px 20px;
 	}
 	
+	h2 {
+		font-size: 1.5em;
+	}
+	
 	/* services page */
 	
 	.serviceblock1 {
@@ -877,6 +895,10 @@ header nav ul li:hover {
 
 .service-item-text {
 	padding: 10px 10px;
+}
+	
+	textarea {
+	width: 90%;
 }
 	
 	/* About Me page changes */
