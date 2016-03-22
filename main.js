@@ -21,9 +21,11 @@ $(document).ready(function(){
 //	});
 	$('.find-out-more-button').click(function(){
 		$(this).parent().next().fadeIn();
+		$(this).parent().parent().addClass('add-white-border');
 	});
 	$('.overlayText').click(function(){
 		$(this).fadeOut();
+		$(this).parent().removeClass('add-white-border');
 		
 	});
 	
@@ -32,9 +34,12 @@ $(document).ready(function(){
 //	$('.find-out-more-button').click(function(){
 //		$(this).parent().closest(".service-item-block").find('.overlayText').fadeIn();
 //	});
-	$('.servicebox').click(function(){
-		$(this).css("background-color","#d3d8db");
-	});
+	
+	// $('.servicebox').click(function(){
+	//	$(this).css("background-color","#d3d8db");
+	//	$(this)
+	//  });
+	
 	//$('.servicebox').click(function(){
 	//	$(this).toggle();
 		

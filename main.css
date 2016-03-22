@@ -1,40 +1,47 @@
 @import url(https://fonts.googleapis.com/css?family=Muli:400,300|Quicksand:400,300,700);
 @import url(https://fonts.googleapis.com/css?family=Sorts+Mill+Goudy);
+* {
+	margin: 0;
+	padding: 0;
+}
 
-* { margin:0; padding:0; }
 
 /* Border Box CSS */
 
 html {
-  box-sizing: border-box;
-}
-*, *:before, *:after {
-  box-sizing: inherit;
+	box-sizing: border-box;
 }
 
+*,
+*:before,
+*:after {
+	box-sizing: inherit;
+}
 
 ::-moz-selection {
-    background: #b3d4fc;
-    text-shadow: none;
+	background: #b3d4fc;
+	text-shadow: none;
 }
 
 ::selection {
-    background: #b3d4fc;
-    text-shadow: none;
+	background: #b3d4fc;
+	text-shadow: none;
 }
+
 
 /*
  * A better looking default horizontal rule
  */
 
 hr {
-    display: block;
-    height: 1px;
-    border: 0;
-    border-top: 1px solid #ccc;
-    margin: 1em 0;
-    padding: 0;
+	display: block;
+	height: 1px;
+	border: 0;
+	border-top: 1px solid #ccc;
+	margin: 1em 0;
+	padding: 0;
 }
+
 
 /*
  * Remove the gap between audio, canvas, iframes,
@@ -48,64 +55,70 @@ iframe,
 img,
 svg,
 video {
-    vertical-align: middle;
+	vertical-align: middle;
 }
+
 
 /*
  * Remove default fieldset styles.
  */
 
 fieldset {
-    border: 0;
-    margin: 0;
-    padding: 0;
+	border: 0;
+	margin: 0;
+	padding: 0;
 }
+
 
 /*
  * Allow only vertical resizing of textareas.
  */
 
 textarea {
-    resize: vertical;
+	resize: vertical;
 }
+
 
 /* Clearfix hack*/
 
-
- * Clearfix: contain floats
- */
-
-.clearfix:before,
+* Clearfix: contain floats */ .clearfix:before,
 .clearfix:after {
-    content: " "; /* 1 */
-    display: table; /* 2 */
+	content: " ";
+	/* 1 */
+	display: table;
+	/* 2 */
 }
 
 .clearfix:after {
-    clear: both;
+	clear: both;
 }
+
 
 /* ==========================================================================
    Browser Upgrade Prompt
    ========================================================================== */
 
 .browserupgrade {
-    margin: 0.2em 0;
-    background: #ccc;
-    color: #000;
-    padding: 0.2em 0;
+	margin: 0.2em 0;
+	background: #ccc;
+	color: #000;
+	padding: 0.2em 0;
 }
+
+
 /* ==========================================================================
    Helper classes
    ========================================================================== */
+
 
 /*
  * Hide visually and from screen readers
  */
 
 .hidden {
-    display: none !important;
+	display: none !important;
 }
+
 
 /*
  * Hide only visually, but have it available for screen readers:
@@ -113,15 +126,16 @@ textarea {
  */
 
 .visuallyhidden {
-    border: 0;
-    clip: rect(0 0 0 0);
-    height: 1px;
-    margin: -1px;
-    overflow: hidden;
-    padding: 0;
-    position: absolute;
-    width: 1px;
+	border: 0;
+	clip: rect(0 0 0 0);
+	height: 1px;
+	margin: -1px;
+	overflow: hidden;
+	padding: 0;
+	position: absolute;
+	width: 1px;
 }
+
 
 /*
  * Extends the .visuallyhidden class to allow the element
@@ -131,25 +145,29 @@ textarea {
 
 .visuallyhidden.focusable:active,
 .visuallyhidden.focusable:focus {
-    clip: auto;
-    height: auto;
-    margin: 0;
-    overflow: visible;
-    position: static;
-    width: auto;
+	clip: auto;
+	height: auto;
+	margin: 0;
+	overflow: visible;
+	position: static;
+	width: auto;
 }
+
 
 /*
  * Hide visually and from screen readers, but maintain layout
  */
 
 .invisible {
-    visibility: hidden;
+	visibility: hidden;
 }
+
+
 /*
 
 
 /* ===========================*/
+
 
 /* EMIKO's customised CSS*/
 
@@ -157,13 +175,14 @@ textarea {
 /* LINKS */
 
 a:link {
-    color: inherit;
-		text-decoration: none;
+	color: inherit;
+	text-decoration: none;
 }
 
 a:visited {
-    color: inherit;
+	color: inherit;
 }
+
 
 /* CSS for text styles */
 
@@ -172,7 +191,7 @@ h1 {
 	font-size: 2em;
 	color: #4e5564;
 	text-align: center;
-	margin: 20px 0; 
+	margin: 20px 0;
 }
 
 h2 {
@@ -182,7 +201,7 @@ h2 {
 	color: #889daa;
 	font-weight: 400;
 	text-align: left;
-	margin: 0 3%; 
+	margin: 0 3%;
 	padding-bottom: 30px;
 }
 
@@ -192,7 +211,7 @@ h3 {
 	font-size: 1.5em;
 	color: #4e5564;
 	text-align: left;
-	margin: 10px 0; 
+	margin: 10px 0;
 }
 
 .followoninstagram h3 {
@@ -201,8 +220,8 @@ h3 {
 }
 
 .SEO-copy h3 {
-	margin-left: 3%;
-	margin-right: 3%;
+	margin-left: 10%;
+	margin-right: 10%;
 	text-align: center;
 }
 
@@ -227,7 +246,7 @@ p {
 	font-size: 1em;
 	color: #4e5564;
 	text-align: justify;
-	margin: 10px 3% 5px 3%; 
+	margin: 10px 3% 5px 3%;
 }
 
 .services p {
@@ -235,23 +254,24 @@ p {
 	text-align: center;
 }
 
-
 .text-overlay p {
 	text-align: center;
 	color: white;
 }
 
-header p{
+header p {
 	font-family: "Muli", sans-serif;
 	font-size: 4.5em;
 	color: #4e5564;
 	letter-spacing: 15px;
 	font-weight: 310;
-	text-align: center; 
+	text-align: center;
 	margin-top: 40px;
 }
 
+
 /* menu for mobile devices*/
+
 .menu {
 	display: none;
 }
@@ -262,7 +282,7 @@ ul {
 	color: #4e5564;
 	text-align: center;
 	list-style-type: none;
-	margin: 5px 0 10px 0; 
+	margin: 5px 0 10px 0;
 }
 
 li {
@@ -272,7 +292,9 @@ li {
 	font-family: "Sorts Mill Goudy", serif;
 }
 
+
 /* li change on hover */
+
 li:hover {
 	color: #efcfeb;
 }
@@ -282,8 +304,7 @@ li:hover {
 }
 
 
-
-/*HOMEPAGE Services Section*/
+/*HOMEPAGE CSS - Services Section*/
 
 .services h2 {
 	text-align: center;
@@ -299,13 +320,14 @@ li:hover {
 .servicewrap {
 	width: 100%;
 	height: 800px;
-	background: url(img/cactus%20homepage%20background%20services.jpg);
+	background: url(img/cactushomepagebackgroundservices.jpg);
 	background-position: center;
 	background-repeat: no-repeat;
 	background-attachment: fixed;
 	background-size: cover;
 }
-.servicebox p{
+
+.servicebox p {
 	color: #4e5564;
 	font-weight: 600;
 	font-size: 1.5em;
@@ -360,12 +382,15 @@ li:hover {
 	position: relative;
 }
 
-/* service boxes to change colour on hover */
+
+/* service boxes to change colour on hover 
 .servicebox:hover {
 	background-color: rgba(175, 191, 91, 0.9);
 	border: none;
 	transition: 1s;
 }
+*/
+
 
 /* BUTTON CSS*/
 
@@ -378,7 +403,8 @@ li:hover {
 	color: white;
 	border-radius: 50px;
 	border: 2px solid white;
-	font-family: "Muli"; sans-serif;
+	font-family: "Muli";
+	sans-serif;
 	text-align: center;
 }
 
@@ -391,7 +417,8 @@ li:hover {
 	color: #e7ebed;
 	border-radius: 50px;
 	border: 2px solid #4e5564;
-	font-family: "Muli"; sans-serif;
+	font-family: "Muli";
+	sans-serif;
 	align-content: center;
 }
 
@@ -402,7 +429,8 @@ li:hover {
 	color: #4e5564;
 	border-radius: 50px;
 	border: 1px solid #e7ebed;
-	font-family: "Muli"; sans-serif;
+	font-family: "Muli";
+	sans-serif;
 	bottom: 20px;
 	position: absolute;
 	transform: translate(-50%);
@@ -450,6 +478,7 @@ li:hover {
 	background-color: whitesmoke;
 }
 
+
 /* Contact section for all pages*/
 
 .contact-section {
@@ -461,7 +490,7 @@ li:hover {
 
 .contact-paragraph {
 	padding: 30px 10% 40px 10%;
-	text-align: center;	
+	text-align: center;
 }
 
 .contact-paragraph h5 {
@@ -480,6 +509,7 @@ li:hover {
 	padding: 0;
 	margin: 0;
 }
+
 
 /* Footer section for all pages */
 
@@ -506,10 +536,11 @@ footer {
 	border-top: dotted 1px #d3d8db;
 }
 
+
 /* "About Me" page CSS */
 
 .profile-image {
-	margin: 20px 5% 60px 5%;
+	margin: 20px 7.5% 60px 7.5%;
 	background-image: url(img/emiko-gi.jpg);
 	height: 400px;
 	background-position: center;
@@ -533,10 +564,13 @@ footer {
 	background-size: cover;
 }
 
+
 /* Instagram feed */
+
 .snapwidget {
 	padding: 30px 10%;
 }
+
 
 /* "Contact" page CSS*/
 
@@ -564,24 +598,25 @@ footer {
 }
 
 .contact-box {
-	margin: 5% 10% 30% 5%; 
+	margin: 5% 10% 30% 5%;
 }
 
 .contact-box p {
-	margin: 0 0; 
-	padding: 0 0; 
+	margin: 0 0;
+	padding: 0 0;
 }
 
 .contactformstyle {
-		border-radius: 5px;
-    background-color: #f2f2f2;
-    padding: 40px;
-		width: 700px;
-		height: auto;
-		margin-left: 10%;
-		float: left;
-		clear: both;
-		margin-right: 30px;
+	border-radius: 5px;
+	background-color: #f2f2f2;
+	padding: 40px;
+	width: 700px;
+	height: auto;
+	margin-left: 10%;
+	float: left;
+	clear: both;
+	margin-right: 30px;
+	margin-bottom: 30px;
 }
 
 textarea {
@@ -607,7 +642,8 @@ input[type=submit] {
 	color: white;
 	border-radius: 50px;
 	border: 2px solid white;
-	font-family: "Muli"; sans-serif;
+	font-family: "Muli";
+	sans-serif;
 	text-align: center;
 }
 
@@ -648,6 +684,7 @@ textarea {
 	width: 550px;
 }
 
+
 /* "Services" Page CSS*/
 
 .services-header-image {
@@ -679,26 +716,32 @@ textarea {
 }
 
 .serviceblock1 {
-	width:50%;
+	width: 50%;
 	background-color: white;
 	height: 300px;
-	float: left;	
+	float: left;
 	position: relative;
-	border: 0.5px white solid;
+	border-top: 0.5px white solid;
+	border-bottom: 0.5px white solid;
+	border-left: 0.5px white solid;
+	border-right: 0.5px white solid;
 }
 
 .serviceblock2 {
-	width:50%;
+	width: 50%;
 	background-color: whitesmoke;
 	height: 300px;
 	float: left;
 	position: relative;
-	border: 0.5px white solid;
+	border-top: 0.5px white solid;
+	border-bottom: 0.5px white solid;
+	border-left: 0.5px white solid;
+	border-right: 0.5px white solid;
 }
 
 .overlayText {
 	display: none;
-	background: rgba(78,85,100,0.98);
+	background: rgba(78, 85, 100, 0.98);
 	position: absolute;
 	top: 0;
 	left: 0;
@@ -706,15 +749,23 @@ textarea {
 	bottom: 0;
 	padding: 20px;
 }
-.overlayText p {
-	color: white;
+
+.oltdiv {
 	position: absolute;
 	top: 50%;
 	transform: translateY(-50%);
 	margin: 0;
 	padding: 0 20px;
 	left: 0;
+}
 
+.overlayText p {
+	color: white;
+}
+
+.overlayText h4 {
+	color: white;
+	margin-left: 3%;
 }
 
 .homeOverlayText {
@@ -725,224 +776,169 @@ textarea {
 
 /*END OF Desktop CSS */
 
-/* ===========================*/
 
 /* ===========================*/
+
+
+/* ===========================*/
+
 
 /* BEGINNING of Media Query, for mobile phone screens */
 
-@media only screen and (max-width: 600px){
-	
+@media only screen and (max-width: 600px) {
 	/* Menu Navigation change*/
-	
 	.menu {
 		display: inline-block;
 		text-align: center;
-		color: #4e5564; 
+		color: #4e5564;
 		background-color: #efcfeb;
 		width: 100%;
 		font-size: 1.4em;
 		padding: 12px 0;
 	}
-	
 	nav ul {
 		display: none;
 		padding: 0;
 		margin: 0;
 	}
-	
-header nav ul li {
-  display: block;
-  font-size: 1em;
-	background-color: rgba(239, 207, 235, 0.6);
-	padding: 10px 10px;
-	border-bottom: 1px solid white;
-	text-align: center;
-}
-	
-header nav ul li:hover {
-	background-color: rgba(239, 207, 235, 0.9);
-	color: white;
-	transition: 0.5s;
-}
-	
+	header nav ul li {
+		display: block;
+		font-size: 1em;
+		background-color: rgba(239, 207, 235, 0.6);
+		padding: 10px 10px;
+		border-bottom: 1px solid white;
+		text-align: center;
+	}
+	header nav ul li:hover {
+		background-color: rgba(239, 207, 235, 0.9);
+		color: white;
+		transition: 0.5s;
+	}
 	/* font size changes*/
-	
 	h1 {
-	font-size: 1.8em;
+		font-size: 1.8em;
 		padding: 0 20px;
 	}
-		
 	h2 {
-	font-size: 1.4em;
-	padding: 5px 20px;
-		}
-	
+		font-size: 1.4em;
+		padding: 5px 20px;
+	}
 	h3 {
-	font-size: 1.2em;
-		}
-		
+		font-size: 1.2em;
+	}
 	h4 {
-	font-size: 1em;
-		}
-		
+		font-size: 1em;
+	}
 	p {
-	font-size: 1em;
-		}
-		
+		font-size: 1em;
+	}
 	.services h2 {
-	font-size: 1.5em;
-	padding-top: 25px;
-		}
-	
+		font-size: 1.5em;
+		padding-top: 25px;
+	}
 	footer p {
-	font-size: 0.6em;
-}
-	
+		font-size: 0.6em;
+	}
 	/* homepage changes*/
-	
 	.homepage-header-image {
-	height: 50vh;
-	background: url(img/cactus%20homepage%20mobile.jpg);
-	background-position: center;
-	background-attachment: fixed;
-	background-size: cover;
-}
-	
+		height: 50vh;
+		background: url(img/cactus-homepage-mobile.jpg);
+		background-position: center;
+		background-attachment: fixed;
+		background-size: cover;
+	}
 	.contact-button-grey {
-	padding: 12px 12px;
-	font-size: 1em;
-}
-	
+		padding: 12px 12px;
+		font-size: 1em;
+	}
 	.servicewrap {
-	position: relative;
-}
-	
+		position: relative;
+	}
 	.serviceboxes {
 		margin: 0 0;
 		border: none;
 	}
-	
 	.servicebox {
-	width: 100%;
-	height: 100px;
-	background-color: white;
-	margin: 5px 0 5px 0;
-	border: none;
+		width: 100%;
+		height: 100px;
+		background-color: white;
+		margin: 5px 0 5px 0;
+		border: none;
 	}
-
 	.servicebox p {
-	padding: 25px 0;
-	margin: 0;
-}
-
+		padding: 25px 0;
+		margin: 0;
+	}
 	
 	
 	/* contact page changes*/
 	
-	.contact-page-header-image{
-	height: 50vh;
-	background: url(img/cactus%20contactpage_mobile.jpg);
-	background-position: center;
-	background-attachment: fixed;
-	background-size: cover;
+	.contact-page-header-image {
+		height: 50vh;
+		background: url(img/cactuscontactpage_mobile.jpg);
+		background-position: center;
+		background-attachment: fixed;
+		background-size: cover;
 	}
-	
-.contactformstyle {
+	.contactformstyle {
 		width: 100%;
 		margin: 0 0 20px 0;
 	}
-	
 	.contactcopy {
 		margin: 5px 10px;
 	}
-	
 	.contact-box {
 		margin: 5px 20px 20px 20px;
 	}
-	
 	h2 {
 		font-size: 1.5em;
 	}
+	
 	
 	/* services page */
 	
 	.serviceblock1 {
 		clear: both;
 		width: 100%;
-		height: 270px;
+		height: 350px;
 		border-bottom: 1px solid #4e5564;
-		border-top: 1px solid #4e5564;
+		background-color: white;
 	}
-	
 	.serviceblock2 {
 		clear: both;
 		width: 100%;
-		height: 270px;
+		height: 350px;
 		border-bottom: 1px solid #4e5564;
+		background-color: white;
+	}
+	.add-white-border {
+		border-bottom: 0.5px white solid;
+	}
+	.find-out-more-button {
+		padding: 10px 10px;
+		font-size: 1em;
+		bottom: 20px;
+	}
+	.service-item-text h3 {
+		font-size: 1.5em;
+		padding-top: 10px;
+	}
+	.service-item-text {
+		padding: 10px 10px;
+	}
+	textarea {
+		width: 90%;
 	}
 	
-	.find-out-more-button {
-	padding: 10px 10px;
-	font-size: 1em;
-	bottom: 20px;
-}
-	
-	.service-item-text h3 {
-	font-size: 1.5em;
-	padding-top: 10px;
-}
-
-.service-item-text {
-	padding: 10px 10px;
-}
-	
-	textarea {
-	width: 90%;
-}
 	
 	/* About Me page changes */
 	
 	.profile-image {
-	margin: 20px 5% 60px 5%;
-	background-image: url(img/emiko-gi-mobile-size.jpg);
-	height: 400px;
-	background-position: center;
-	background-repeat: no-repeat;
-	background-size: cover;
+		margin: 20px 5% 60px 5%;
+		background-image: url(img/emiko-gi-mobile-size.jpg);
+		height: 400px;
+		background-position: center;
+		background-repeat: no-repeat;
+		background-size: cover;
+	}
 }
-	
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
